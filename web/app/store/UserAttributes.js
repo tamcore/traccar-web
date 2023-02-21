@@ -51,6 +51,10 @@ Ext.define('Traccar.store.UserAttributes', {
         name: Strings.attributeMailSmtpSslProtocols,
         valueType: 'string'
     }, {
+        key: 'mail.smtp.rcpt',
+        name: Strings.attributeMailSmtpRcpt,
+        valueType: 'string'
+    }, {
         key: 'mail.smtp.from',
         name: Strings.attributeMailSmtpFrom,
         valueType: 'string'

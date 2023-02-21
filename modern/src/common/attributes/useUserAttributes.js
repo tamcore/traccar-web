@@ -41,6 +41,10 @@ export default (t) => useMemo(() => ({
     name: t('attributeMailSmtpSslProtocols'),
     type: 'string',
   },
+  'mail.smtp.rcpt': {
+    name: t('attributeMailSmtpRcpt'),
+    type: 'string',
+  },
   'mail.smtp.from': {
     name: t('attributeMailSmtpFrom'),
     type: 'string',
